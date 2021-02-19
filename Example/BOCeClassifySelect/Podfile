@@ -1,0 +1,9 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BOCeClassifySelect' do
+
+  pod 'BOCeClassifySelect', :git=> 'https://github.com/guang1472006/BOCeClassifySelect.git'
+
+end
