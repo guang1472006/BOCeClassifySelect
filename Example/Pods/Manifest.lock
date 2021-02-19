@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   BOCeClassifySelect:
-    :commit: 1e1cce8ee8e72997009a9310a792f3f526ff7791
+    :commit: 72d22d27593332512c1861fb2dea5432e325edae
     :git: https://github.com/guang1472006/BOCeClassifySelect.git
 
 SPEC CHECKSUMS:
