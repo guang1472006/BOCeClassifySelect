@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 表数据源
 @property(strong,nonatomic)NSMutableArray *dataArray;
 
-@property(assign,nonatomic)id<BOCeClassifydelegate>delegate;
+@property(weak,nonatomic)id<BOCeClassifydelegate>delegate;
 
 @property(strong,nonatomic)UICollectionView *collectView;
 
