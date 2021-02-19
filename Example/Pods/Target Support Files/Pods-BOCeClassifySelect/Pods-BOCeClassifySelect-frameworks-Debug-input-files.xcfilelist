@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-BOCeClassifySelect/Pods-BOCeClassifySelect-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/BOCeClassifySelect/BOCeClassifySelect.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework

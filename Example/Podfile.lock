@@ -1,8 +1,14 @@
 PODS:
-  - BOCeClassifySelect (0.1.0)
+  - BOCeClassifySelect (0.0.1):
+    - Masonry (~> 1.1.0)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - BOCeClassifySelect (from `https://github.com/guang1472006/BOCeClassifySelect.git`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
 
 EXTERNAL SOURCES:
   BOCeClassifySelect:
@@ -10,11 +16,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   BOCeClassifySelect:
-    :commit: e14ce87e11e3a629e7c85331968cee45d0ad281f
+    :commit: 1e1cce8ee8e72997009a9310a792f3f526ff7791
     :git: https://github.com/guang1472006/BOCeClassifySelect.git
 
 SPEC CHECKSUMS:
-  BOCeClassifySelect: b196566fc2e4bf7c17241390909c6f0e4e3f8099
+  BOCeClassifySelect: 142052c0687555a1e12da90ab175ce0bda511c96
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: e51286681c0311319597acc026684d0352f0198f
 

@@ -1,9 +1,9 @@
 {
   "name": "BOCeClassifySelect",
-  "version": "0.1.0",
-  "summary": "A short description of BOCeClassifySelect.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/734781246@qq.com/BOCeClassifySelect",
+  "version": "0.0.1",
+  "summary": "zhangwenxue",
+  "description": "BOCeClassifySelect of BOCE",
+  "homepage": "https://github.com/guang1472006/BOCeClassifySelect",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "734781246@qq.com": "734781246@qq.com"
   },
   "source": {
-    "git": "https://github.com/734781246@qq.com/BOCeClassifySelect.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/guang1472006/BOCeClassifySelect.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "BOCeClassifySelect/Classes/**/*"
+  "source_files": "BOCeClassifySelect/Classes/*",
+  "dependencies": {
+    "Masonry": [
+      "~> 1.1.0"
+    ]
+  }
 }
