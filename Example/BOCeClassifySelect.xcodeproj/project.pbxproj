@@ -15,6 +15,7 @@
 		CA72F84725DF87C800BB1271 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72F84625DF87C800BB1271 /* main.m */; };
 		CA72F85125DF87C900BB1271 /* BOCeClassifySelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72F85025DF87C900BB1271 /* BOCeClassifySelectTests.m */; };
 		CA72F85C25DF87C900BB1271 /* BOCeClassifySelectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA72F85B25DF87C900BB1271 /* BOCeClassifySelectUITests.m */; };
+		E8A0DD2B7F4141DAC2C18BD0 /* Pods_BOCeClassifySelect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4335A6FA3B9AAFD9666020B /* Pods_BOCeClassifySelect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2378C13B99D436D680E2E65F /* Pods-BOCeClassifySelect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BOCeClassifySelect.release.xcconfig"; path = "Target Support Files/Pods-BOCeClassifySelect/Pods-BOCeClassifySelect.release.xcconfig"; sourceTree = "<group>"; };
+		4E424D0B3C096900D1B2DB6A /* Pods-BOCeClassifySelect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BOCeClassifySelect.debug.xcconfig"; path = "Target Support Files/Pods-BOCeClassifySelect/Pods-BOCeClassifySelect.debug.xcconfig"; sourceTree = "<group>"; };
 		CA72F83125DF87C700BB1271 /* BOCeClassifySelect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BOCeClassifySelect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA72F83425DF87C700BB1271 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA72F83525DF87C700BB1271 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		CA72F85725DF87C900BB1271 /* BOCeClassifySelectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BOCeClassifySelectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA72F85B25DF87C900BB1271 /* BOCeClassifySelectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BOCeClassifySelectUITests.m; sourceTree = "<group>"; };
 		CA72F85D25DF87C900BB1271 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4335A6FA3B9AAFD9666020B /* Pods_BOCeClassifySelect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BOCeClassifySelect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8A0DD2B7F4141DAC2C18BD0 /* Pods_BOCeClassifySelect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		701080BC378C25ECF85D2078 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4335A6FA3B9AAFD9666020B /* Pods_BOCeClassifySelect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CA72F82825DF87C700BB1271 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +98,8 @@
 				CA72F84F25DF87C900BB1271 /* BOCeClassifySelectTests */,
 				CA72F85A25DF87C900BB1271 /* BOCeClassifySelectUITests */,
 				CA72F83225DF87C700BB1271 /* Products */,
+				EA987BE6834EBB9648E819B3 /* Pods */,
+				701080BC378C25ECF85D2078 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +147,16 @@
 			path = BOCeClassifySelectUITests;
 			sourceTree = "<group>";
 		};
+		EA987BE6834EBB9648E819B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E424D0B3C096900D1B2DB6A /* Pods-BOCeClassifySelect.debug.xcconfig */,
+				2378C13B99D436D680E2E65F /* Pods-BOCeClassifySelect.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CA72F86025DF87C900BB1271 /* Build configuration list for PBXNativeTarget "BOCeClassifySelect" */;
 			buildPhases = (
+				E5C1D220E854BD5B67FD36E8 /* [CP] Check Pods Manifest.lock */,
 				CA72F82D25DF87C700BB1271 /* Sources */,
 				CA72F82E25DF87C700BB1271 /* Frameworks */,
 				CA72F82F25DF87C700BB1271 /* Resources */,
+				58EB2683A9452500FE640057 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -255,6 +282,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58EB2683A9452500FE640057 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BOCeClassifySelect/Pods-BOCeClassifySelect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BOCeClassifySelect/Pods-BOCeClassifySelect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BOCeClassifySelect/Pods-BOCeClassifySelect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5C1D220E854BD5B67FD36E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BOCeClassifySelect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CA72F82D25DF87C700BB1271 /* Sources */ = {
@@ -432,6 +501,7 @@
 		};
 		CA72F86125DF87C900BB1271 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E424D0B3C096900D1B2DB6A /* Pods-BOCeClassifySelect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +519,7 @@
 		};
 		CA72F86225DF87C900BB1271 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2378C13B99D436D680E2E65F /* Pods-BOCeClassifySelect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

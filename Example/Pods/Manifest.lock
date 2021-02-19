@@ -1,0 +1,21 @@
+PODS:
+  - BOCeClassifySelect (0.1.0)
+
+DEPENDENCIES:
+  - BOCeClassifySelect (from `https://github.com/guang1472006/BOCeClassifySelect.git`)
+
+EXTERNAL SOURCES:
+  BOCeClassifySelect:
+    :git: https://github.com/guang1472006/BOCeClassifySelect.git
+
+CHECKOUT OPTIONS:
+  BOCeClassifySelect:
+    :commit: e14ce87e11e3a629e7c85331968cee45d0ad281f
+    :git: https://github.com/guang1472006/BOCeClassifySelect.git
+
+SPEC CHECKSUMS:
+  BOCeClassifySelect: b196566fc2e4bf7c17241390909c6f0e4e3f8099
+
+PODFILE CHECKSUM: e51286681c0311319597acc026684d0352f0198f
+
+COCOAPODS: 1.10.1
